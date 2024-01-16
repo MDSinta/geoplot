@@ -11,4 +11,9 @@
 .grid-items {
 
 }
+
+.one {
+    width: 100px;
+    height: 100px;
+}
 /* https://leafletjs.com/examples/quick-start/ */
