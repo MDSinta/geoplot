@@ -1,6 +1,10 @@
 #map { 
-    height: 500px; width: 500px;
-    top: 20px;
+    border-style: double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px; width: 1000px;
+    top: 10px;
 }
 
 .grid {
@@ -9,11 +13,25 @@
 }
 
 .grid-items {
-
+    text-align: center;
 }
 
-.one {
-    width: 100px;
-    height: 100px;
+label {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+#images {
+    margin: 20px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
 }
 /* https://leafletjs.com/examples/quick-start/ */
